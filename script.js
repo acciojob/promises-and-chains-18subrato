@@ -1,5 +1,5 @@
-document.getElementById('userForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+document.getElementById('userForm').addEventListener('submit', function(e) {
+    e.preventDefault();
     
     let userName = document.getElementById('name').value;
     let userAge = document.getElementById('age').value;
